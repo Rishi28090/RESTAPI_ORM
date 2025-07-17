@@ -29,7 +29,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '16.x' # Use a specific version of Node.js
+          node-version: '19.x' # Use a specific version of Node.js
 
       # 7. Run commands using the runner's shell.
       # Installs dependencies. 'ci' is often preferred over 'install' in CI environments
